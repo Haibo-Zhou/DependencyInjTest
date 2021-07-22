@@ -17,21 +17,19 @@ class TabBarController: UITabBarController {
             return
         }
         
-//        print(viewControllers[1].viewcontrollers)
-        if let naviController = viewControllers[1] as? UINavigationController {
-            if let vc = naviController.viewControllers[0] as? SongsViewController {
+        if let naviController = viewControllers[0] as? UINavigationController {
+            if let vc = naviController.viewControllers[0] as? ViewController1 {
                 vc.modelController = modelController
             }
         }
         
-//        for viewController in viewControllers {
-//            switch viewController {
-//            case let viewController as SongsViewController:
-//                print("ASAS")
-//                viewController.modelController = modelController
-//            default:
-//                break
-//            }
-//        }
+        if let naviController = viewControllers[1] as? UINavigationController {
+            if let vc = naviController.viewControllers[0] as? ViewController2 {
+                vc.modelController = modelController
+            }
+        }
+        
+        
+        
     }
 }

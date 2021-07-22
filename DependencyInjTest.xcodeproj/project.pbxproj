@@ -15,8 +15,9 @@
 		D02412062664936500A8905D /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D02412052664936500A8905D /* TabBarController.swift */; };
 		D024120A266493AB00A8905D /* Song.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0241209266493AB00A8905D /* Song.swift */; };
 		D024120C266493FB00A8905D /* ModelController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024120B266493FB00A8905D /* ModelController.swift */; };
-		D024120E2664942600A8905D /* SongsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024120D2664942600A8905D /* SongsViewController.swift */; };
+		D024120E2664942600A8905D /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024120D2664942600A8905D /* ViewController2.swift */; };
 		D02412102664950500A8905D /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = D024120F2664950500A8905D /* ViewController1.swift */; };
+		D0CA840A26A93A9A00179B95 /* NewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA840926A93A9A00179B95 /* NewViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,8 +31,9 @@
 		D02412052664936500A8905D /* TabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 		D0241209266493AB00A8905D /* Song.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Song.swift; sourceTree = "<group>"; };
 		D024120B266493FB00A8905D /* ModelController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelController.swift; sourceTree = "<group>"; };
-		D024120D2664942600A8905D /* SongsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SongsViewController.swift; sourceTree = "<group>"; };
+		D024120D2664942600A8905D /* ViewController2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		D024120F2664950500A8905D /* ViewController1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		D0CA840926A93A9A00179B95 /* NewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,13 +66,11 @@
 		D02411F02664930B00A8905D /* DependencyInjTest */ = {
 			isa = PBXGroup;
 			children = (
+				D0CA840826A9376700179B95 /* Resource */,
 				D02412082664939D00A8905D /* Model */,
 				D02412072664938600A8905D /* ViewControllers */,
 				D02411F12664930B00A8905D /* AppDelegate.swift */,
 				D02411F32664930B00A8905D /* SceneDelegate.swift */,
-				D02411F72664930B00A8905D /* Main.storyboard */,
-				D02411FA2664930C00A8905D /* Assets.xcassets */,
-				D02411FC2664930C00A8905D /* LaunchScreen.storyboard */,
 				D02411FF2664930C00A8905D /* Info.plist */,
 			);
 			path = DependencyInjTest;
@@ -80,8 +80,9 @@
 			isa = PBXGroup;
 			children = (
 				D02412052664936500A8905D /* TabBarController.swift */,
-				D024120D2664942600A8905D /* SongsViewController.swift */,
+				D024120D2664942600A8905D /* ViewController2.swift */,
 				D024120F2664950500A8905D /* ViewController1.swift */,
+				D0CA840926A93A9A00179B95 /* NewViewController.swift */,
 			);
 			path = ViewControllers;
 			sourceTree = "<group>";
@@ -93,6 +94,16 @@
 				D024120B266493FB00A8905D /* ModelController.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		D0CA840826A9376700179B95 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				D02411F72664930B00A8905D /* Main.storyboard */,
+				D02411FA2664930C00A8905D /* Assets.xcassets */,
+				D02411FC2664930C00A8905D /* LaunchScreen.storyboard */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -166,8 +177,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D024120A266493AB00A8905D /* Song.swift in Sources */,
-				D024120E2664942600A8905D /* SongsViewController.swift in Sources */,
+				D024120E2664942600A8905D /* ViewController2.swift in Sources */,
 				D024120C266493FB00A8905D /* ModelController.swift in Sources */,
+				D0CA840A26A93A9A00179B95 /* NewViewController.swift in Sources */,
 				D02412062664936500A8905D /* TabBarController.swift in Sources */,
 				D02412102664950500A8905D /* ViewController1.swift in Sources */,
 				D02411F22664930B00A8905D /* AppDelegate.swift in Sources */,

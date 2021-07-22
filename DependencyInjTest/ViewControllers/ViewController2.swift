@@ -7,7 +7,7 @@
 
 import UIKit
 
-class SongsViewController: UIViewController {
+class ViewController2: UIViewController {
     var modelController: ModelController!
 
     override func viewDidLoad() {
